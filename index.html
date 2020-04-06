@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css">
+    <title>600mt</title>
+	
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/myStyle.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	   <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-121901393-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-121901393-1');
+	</script>
+	
+	
+  </head>
+  <body>
+    <div class="container-fluid">
+		<div class="row mb-4 ">
+		</div>
+		<div class="row my-auto">
+			<div class="col-12 col-md-2 my-auto">
+				<input id="slider_1" type="range" min="50" max="200" value="130" class="slider1 slider">
+			</div>
+			<div class="col-12 col-md-2 my-auto">
+				<input type="range" min="0" max="200" value="0" class="slider2 slider">
+			</div>
+			
+			<div class="col-12 col-md-2 my-auto">
+				<button id="mode" type="button" class="mt-0 btn_round " ></button> 
+			</div>
+			
+			<div class="col-12 col-md-2 offset-md-4 my-auto">
+				  
+				  
+				  <button type="button" class="btn_request" style="font-weight: bold;"> &nbsp Request  &nbsp </button>
+				  
+			</div>
+		</div>
+		
+		<div class="row bottom">
+			<div class="col">
+			
+				<div class="typo">
+					<!-- <div class="colonne1"> -->
+					<!-- </div> -->
+				  <div class="colonne2">
+					<input id="inputCaratteri" type="text" class="test mt600" value="Airbus_AMS" style="letter-spacing: 0px; font-size: 130pt;">
+					<!-- <textarea name="Text1" cols="40" rows="5" class="test mt600" style="letter-spacing: 0px; font-size: 50pt;"></textarea> -->
+				  </div>
+				</div>		
+			</div>
+		</div>
+	</div>
+	
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+    <script>
+	function updateVarw(newVar){
+	  var fontVarw = newVar;
+	  $('.test').css('font-variation-settings', "'wght'" + fontVarw);
+	}
+	function updateVar(newVar){
+	  var fontVar = newVar;
+	  $('.test').css('font-variation-settings', "'srrf'" + fontVar);
+	}
+	</script>
+
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/myJs.js"></script>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> -->
+  </body>
+</html>
